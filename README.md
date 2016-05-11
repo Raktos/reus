@@ -6,6 +6,16 @@
 Sets the color of the current selection.
 If no parameter is passed, returns the current color.
 
-selection.**len**(value)
+[#](#Methods/len)selection.**len**(value)
 Takes in an **int** as a parameter and sets the height and width of each square to the value.
 If no paramter is passed, returns the current length.
+
+[#](#Methods/h)selection.**h**(value)
+Takes in an **int** as a parameter and sets the height of the svg.
+If no paramter is passed, returns the current length.
+Note: the actual charting area is smaller due to margins.
+
+[#](#Methods/w)selection.**w**(value)
+Takes in an **int** as a parameter and sets the width of the svg.
+If no paramter is passed, returns the current length.
+Note: the actual charting area is smaller due to margins.
