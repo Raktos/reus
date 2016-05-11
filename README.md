@@ -3,6 +3,6 @@
 
 
 ## Methods
-[#](https://github.com/t-ha/reus/Methods#color) selection.**color**(value)
+[#](https://github.com/t-ha/reus/blob/master/Methods#color) selection.**color**(value)
 Sets the color of the current selection.
 If no parameters are passed, returns the current color.
