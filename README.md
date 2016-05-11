@@ -1,15 +1,15 @@
 # Square Binning
 **SquareBin.js** takes data and encodes the distribution into individual bins/squares of color. A darker colored bin represents an area of the chart with a higher density relative to the other bins, and vice versa. This is a simplified version of the commonly found hexagonal binning.
 
-## Methods
-[#](#Methods) selection.**color**(value)
+##Methods
+[#](##Methods) selection.**color**(value)
 
 Takes in a **String** as a parameter and sets the base color of the bins. Accepts both rgb:`'rgb(255,255,255)'` and hexadecimal:`'#FFFFFF'`
 The color is fully represented when the opacity of a bin is 1.
 If no parameter is passed, returns the current color.
 
 
-[#](#Methods/opac)selection.**opac**(value)
+[#](#Methods)selection.**opac**(value)
 
 Takes in an **int** or **float** betwewen 0 and 1 as a parameter and sets the weight of the opacity.
 If no parameter is passed, returns the current opacity weight.
