@@ -3,6 +3,6 @@
 
 
 ## Methods
-[#](##Methods) selection.**color**(value)
+[#](#Methods/color) selection.**color**(value)
 Sets the color of the current selection.
 If no parameters are passed, returns the current color.
