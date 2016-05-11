@@ -1,5 +1,5 @@
 # Square Binning
-**SquareBin.js** takes data and encodes the distribution into individual bins/squares of color. A darker colored bin represents an area of the chart with a higher density relative to the other bins, and vice versa. Data must be in the form of x and y coordinates. This is a simplified version of the commonly found hexagonal binning.
+**SquareBin.js** takes data and encodes the distribution into individual bins/squares of color. A darker colored bin represents an area of the chart with a higher density relative to the other bins, and vice versa. Data must be in the form of x and y coordinates. Data of non-linear scales are not well represented. This is a simplified version of the commonly found hexagonal binning.
 
 ##Methods
 <a name="color" href="#color">#</a> selection.**color**(value)
