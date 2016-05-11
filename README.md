@@ -9,13 +9,12 @@ The color is fully represented when the opacity of a bin is 1.
 If no parameter is passed, returns the current color.
 
 
-[#](#methods)selection.**opac**(value)
-
+[#](#methods/opac)selection.**opac**(value)
 Takes in an **int** or **float** betwewen 0 and 1 as a parameter and sets the weight of the opacity.
 If no parameter is passed, returns the current opacity weight.
 
 
-[#](#Methods/len)selection.**len**(value)
+[#](#methods#len)selection.**len**(value)
 
 Takes in an **int** as a parameter and sets the height and width of each square to the value.
 If no parameter is passed, returns the current length.
