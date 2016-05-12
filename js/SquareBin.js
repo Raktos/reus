@@ -68,8 +68,6 @@ var SquareBin = function() {
 					bins.find(x=> x.id === id).count++;
 				}
 			}
-
-
 			// horizontal grid lines
 			for (var i = 0; i < width; i+=len) {
 				g.append('line')
@@ -103,14 +101,14 @@ var SquareBin = function() {
 			squares.exit().remove();
 
 			var xAxis = d3.svg.axis()
-					.scale(xScale)
-					.orient('bottom')
-					.ticks(5);
+						.scale(xScale)
+						.orient('bottom')
+						.ticks(width / len / 2);
 
 			var yAxis = d3.svg.axis()
 						.scale(yScale)
 						.orient('left')
-						.ticks(10);
+						.ticks(height / len / 2);
 
 			svg.append('g')
 				.attr('transform', 'translate(' + margin.left + ',' + (height + margin.top) + ')')
